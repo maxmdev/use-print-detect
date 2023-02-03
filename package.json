@@ -1,0 +1,29 @@
+{
+  "name": "use-print-detect",
+  "version": "1.0.0",
+  "description": "React hook for media print event.",
+  "main": "use-print-detect.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmdev/use-print-detect.git"
+  },
+  "keywords": [
+    "media",
+    "print",
+    "react",
+    "print hook",
+    "media print react",
+    "react hook print",
+    "react print detect"
+  ],
+  "author": "maxmel.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxmdev/use-print-detect/issues"
+  },
+  "homepage": "https://github.com/maxmdev/use-print-detect#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "typescript": "^3.9.4"
+  }
+}
