@@ -1,11 +1,18 @@
 {
   "name": "use-print-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook for media print event.",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxmdev/use-print-detect.git"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "keywords": [
     "media",
@@ -25,5 +32,8 @@
   "peerDependencies": {
     "react": "^16.8.6",
     "typescript": "^3.9.4"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.27"
   }
 }
