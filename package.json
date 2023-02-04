@@ -2,7 +2,7 @@
   "name": "use-print-detect",
   "version": "1.0.0",
   "description": "React hook for media print event.",
-  "main": "use-print-detect.ts",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxmdev/use-print-detect.git"
