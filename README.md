@@ -18,7 +18,7 @@ And then use in your React components:
 ```
 import React from 'react';
 
-import { usePrintDetect } from 'use-print-detect';
+import usePrintDetect from 'use-print-detect';
 
 const ContentContainer: React.FC = () => {
 const isPrint = usePrintDetect();
@@ -32,7 +32,5 @@ return (
 ```
 
 ## Resources
-- [MDN - MediaQueryList](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/media)
-- [MDN - MediaQueryList.matches](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/matches)
-- [MDN - MediaQueryList - addListener](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/addListener)
-- [MDN - MediaQueryList - removeListener](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/removeListener)
+- [MDN - afterprint](https://developer.mozilla.org/en-US/docs/Web/API/Window/afterprint_event)
+- [MDN - beforeprint](https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeprint_event)
