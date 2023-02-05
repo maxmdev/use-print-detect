@@ -1,4 +1,10 @@
+# system folders
 .DS_Store
 .idea
 node_modules
+
+# build
 lib
+
+# lock
+package-lock.json
